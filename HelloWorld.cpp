@@ -1,5 +1,5 @@
 //Anders Love-Tedjoutomo Hello world program
-//Prints Helow world
+//Prompts user for age then prints age and hello world
 
 #include <iostream>
 
