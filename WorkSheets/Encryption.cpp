@@ -16,5 +16,22 @@ int main(int argc, char *argv[]) {
     while (fin >> number) {
         cout << number << endl;
     }
-    return 0;
+       int i;
+       char str[100];
+       char letter;
+
+       if ( a <= letter <= z) //FIX!
+
+         for(i = 0; (i < 100 && str[i] != '\0'); i++)
+            str[i] = str[i] + letter;
+
+         cout << "\nEncrypted string: " << str << endl;
+         break;
+
+
+         for(i = 0; (i < 100 && str[i] != '\0'); i++)
+         str[i] = str[i] - letter;
+
+   return 0;
 }
+
